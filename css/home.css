@@ -1,0 +1,226 @@
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/Vazir-Regular.eot');
+    src: url('../fonts/Vazir-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Vazir-Regular.woff2') format('woff2'),
+         url('../fonts/Vazir-Regular.woff') format('woff'),
+         url('../fonts/Vazir-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/Vazir-Bold.eot');
+    src: url('../fonts/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Vazir-Bold.woff2') format('woff2'),
+         url('../fonts/Vazir-Bold.woff') format('woff'),
+         url('../fonts/Vazir-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+body {
+    /*border:2px solid red;*/
+    margin: 0px;
+    padding: 0px;
+    font-family: Vazir;
+    font-size: 14px;
+    background-image: url('../img/pattern.jpg');
+}
+
+.headerclass
+{
+    /*border:2px solid blue;*/
+    background-color:#a9b7f8;
+    height:70px;
+    /*display:flex;*/
+    background-color:#f6f2f2;
+    box-sizing: border-box;
+}
+
+.headerclass > div
+{
+    /*border:3px solid red;*/
+    /*display:flex;
+    flex-wrap:wrap;*/
+    position:absolute;
+    height:70px;
+    box-sizing:border-box;
+}
+
+.headerclass1
+{
+    width:15%;
+    right:0px;
+    padding-right:10px;
+}
+
+.headerclass2
+{
+    width:75%;
+    right:17%;
+    /*text-align: center;*/
+    /*vertical-align: middle;*/
+    padding-top: 22px;
+}
+
+.headerclass3
+{
+    width:20%;
+    right:75%;
+    padding-top: 22px;
+    padding-right:10px;
+    color: #696969;
+    font-size:18px;
+    text-decoration:none;
+}
+.headerclass3:hover
+{
+     color: #0c0c0c;
+}
+
+.menuclass
+{
+    /*border:2px solid yellow;*/
+    margin:0px;
+}
+.menuclass .menuitemclass
+{
+    text-decoration:none;
+/*    border: 1px solid #ff0000;*/
+    margin: 0px 10px;
+    padding:0px 10px;
+    color: #696969;
+    font-size:18px;
+}
+
+.menuclass > i
+ {
+        color:#696969;
+        font-size: 20px;
+        margin-left: -20px;
+ }
+.headerclass3>i
+{
+    color:#696969;
+    font-size: 20px;
+    margin-left: -10px;
+        
+}
+
+.menuclass .menuitemclass:hover
+{
+    border-bottom: 3px solid #ff0000;
+    color: #0c0c0c;
+}
+
+.contentclass {
+    border: 2px solid #171717;
+    /*height: 100vh;*/
+    text-align: center;
+    padding: 20px;
+    margin: 0px 20px;
+    border-radius: 20px;
+}
+
+.contentclass #pagetitle
+{
+    font-size: 26px;
+    text-align:right;
+    padding: 5px 30px;
+    
+}
+
+.contentclass #pagecontent
+{
+    border: 3px solid #171717;
+    border-radius: 20px;
+    background-color: rgb(170 168 168 / 0.35);
+    /*height: 200px;*/
+}
+
+.footerclass
+{
+    border: 2px solid #171717;
+    height: 165px;
+    margin: 10px 20px;
+    border-radius: 20px;
+    background-color: rgb(170 168 168 / 0.83);
+}
+.footerclass .footercontentclass 
+{
+    margin: 10px;
+    height: 140px;
+}
+.footerclass .footercontentclass > div
+{
+    /*margin: 10px;*/
+    position:absolute;
+    box-sizing: border-box;
+    width: calc(84% /3);
+    height: 140px;
+    vertical-align: middle;
+    margin: 30px 80px;
+    padding: 0px 20px;
+    
+}
+.footer1
+{
+    right:0px;
+    text-align: right;
+    /*border: 2px solid black;*/
+}
+.footer2
+{
+    /*border: 2px solid black;*/
+    right: 30%;
+    margin-right: 10px;
+    
+}
+
+.footer3
+{
+    right: 60%;
+    /*border: 2px solid black;*/
+}
+.footer3 >img
+{
+        border: 2px solid #171717;
+        width: 85px;
+        height: 135px;
+        margin-left:10px;
+        margin-right:10px;
+        margin-top: -30px;
+        border-radius: 10px;
+        background-color: #dbdfed;
+}
+
+.firstdiv {
+    background-color: #f2f2f2;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.firstdivtext
+{
+    text-align: right;
+    font-size: 35px;
+    padding: 10px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+    .firstdivtext:hover{
+        color: red;
+    }
+
+.maintext
+{
+    text-align:center;
+    font-size: 26px;
+    font-weight: bold;
+}
+.resumetest
+{
+    text-align: right;
+    margin: 10px;
+    padding: 20px;
+    font-size: 18px;
+}
